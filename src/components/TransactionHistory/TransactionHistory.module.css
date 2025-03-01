@@ -1,0 +1,19 @@
+.tableTrans {
+    border: 1px solid black;
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  .tableTrans thead {
+    background-color: black;
+    color: white;
+  }
+  
+  .tableTrans th, .tableTrans td {
+    padding: 10px 50px;
+    border: 1px solid black;
+  }
+  
+  .tableTrans tbody tr:nth-child(even) {
+    background-color: #525252;
+  }
